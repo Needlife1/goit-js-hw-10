@@ -60,6 +60,8 @@ function hide(arg) {
   arg.classList.add('is-hidden');
 }
 
-export default function show(arg) {
+function show(arg) {
   arg.classList.remove('is-hidden');
 }
+
+export { hide };
